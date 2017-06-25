@@ -1,0 +1,43 @@
+body{
+    background-color:gray;
+}
+
+.menu-area{
+    background-color: white; li
+}
+
+
+.menu-area ul{
+    list-style: none;
+}
+.menu-area ul li{
+    display: inline-block;
+}
+.menu-area ul li a{
+    padding: 20px;
+    color: black;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu-area ul li a:hover{
+    color:white;
+    background-color: black;
+}
+
+
+.body-left{
+    float: left;
+    width: 70%;
+}
+
+.body-right{
+    float: right;
+    width: 25%;
+}
+
+
+.body-area{
+    overflow: hidden;
+}

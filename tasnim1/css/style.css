@@ -1,0 +1,120 @@
+body{
+    background-color: gray;
+}
+
+.container{
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.headerarea{
+    overflow: hidden;
+    min-height: 100px;
+}
+
+.headerarea .logoarea{
+    width: 250px;
+    float: left;
+    
+
+}
+
+.headerarea .logoarea img{
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+    
+}
+
+.headerarea .navigationarea{
+    width: 710px;
+    float: left;
+}
+
+.headerarea .searcharea{
+    padding: 20px;
+}
+
+.searcharea, .navbararea{
+    float: right;
+
+
+}
+
+.navbararea ul{
+    list-style: none;
+}
+.navbararea ul li{
+    display: inline-block;
+}
+.navbararea ul li a{
+    padding: 10px 15px;
+    background-color: red;
+    text-decoration: none;
+    color: yellow;
+
+}
+.navbararea ul li a:hover{
+    padding: 10px 15px;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+
+.bodytoparea h3{
+    text-align: center;
+    padding: 20px;
+}
+
+.bottomarea{
+overflow: hidden;
+}
+
+.bodytoparea .imagearea img{
+    width: 400px;
+    height: 250px;
+    float: left;
+    padding: 5px;
+}
+.bodybottomarea .bodytoppicturearea img{
+float: left;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+
+.footertoparea, .footerbottomarea{
+   text-align: center;
+    padding: 10px 0px;;
+}
+
+.footertoparea{
+    background-color: lightgreen;
+}
+
+.footerbottomarea{
+     background-color: yellowgreen;
+}
+
+.footerbottomarea img{
+    width: 20px;
+    height: 20px;
+   
+}
