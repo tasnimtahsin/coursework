@@ -10,11 +10,7 @@
 <body>
    <div class="main-body">
        <div class="header-area">
-        <a href="#">
-            <h1>
-                Newspaper
-            </h1>
-        </a>
+        <img src="logo.png">
            
        </div>
        <div class="menu-area">
@@ -25,15 +21,15 @@
                <li><a href="#">Fun</a></li>
                <li><a href="#">Sports</a></li>
                <li><a href="#">Contact Us</a></li>
-               
+               <li><a href="reg.php">sign up</a></li>
                <?php 
                     if($_SESSION['username']){
-                    echo "<li><a href='dashboard.php'>Dashboard</a></li>";
+                    echo "<li><a href='dashboard.php'>post something</a></li>";
                         
                         echo "<li><a href='logout.php'>Logout</a></li>";
                     }
                     else{
-                        echo "<li><a href='login.php'>Login</a></li>";
+                        echo "<li><a href='login.php'>sign in</a></li>";
                     }
                 ?>
                

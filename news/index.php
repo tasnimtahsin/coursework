@@ -1,8 +1,20 @@
+<head>
+  
+  <style>
+    .body-area{
+      background-color: lightblue;
+    }
+    .body-left{
+      background-color: lightblue;
+    }
+  </style>
+</head>
 <?php include("header.php"); ?>
 <?php include("connect.php"); ?>
       
-       
+       <h2>posts:</h2>
        <div class="body-area">
+
            <div class="body-left">
                 
                 

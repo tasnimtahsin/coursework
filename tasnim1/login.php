@@ -96,7 +96,7 @@ echo "sorry your email of password is wrong";
 
    
    <html>
-   <h1 class="h1">member login</h1>
+   <h1 class="h1">new member login</h1>
    <div class="img.avatar">
         <img src="img/avatar.jpg" /> 
    </div>
