@@ -43,7 +43,8 @@
                 url: 'delete.php',
                 data: postData,
                 success: function(data) {
-                    //console.log(data);
+                    //onsole.log(data);
+                    $( ".post-container"+getId ).remove();
                 }
             });
    });
@@ -93,6 +94,9 @@ function debug_to_console( $data ) {
                 debug_to_console( $dbPostId );
                 ?>
 
+                <?php
+                  echo "<div id='" . $dbPostId . "' class='post-container" . $dbPostId . "' value='" . $dbPostId . "'>";
+                ?>
                 <div class="body-right">
                 <ul>
                   <li>
@@ -114,8 +118,8 @@ function debug_to_console( $data ) {
 
                      </a>
                      <p><?php echo $dbPostDec; ?></p>
-                 </div>
-
+                </div>
+                </div>
 
             <?php
             }

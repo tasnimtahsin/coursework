@@ -5,11 +5,11 @@ include("dbconfig.php");
 $id = $_POST['id'];
 
 debug_to_console( "Inside delete.php: ");
-debug_to_console( $dbPostId );
+debug_to_console( $id );
 
 mysqli_query($a,"DELETE FROM `posts` WHERE `id`='$id'");
 
-header("location:index.php");
+//header("location:index.php");
 
 ?>
 
